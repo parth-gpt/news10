@@ -1,0 +1,45 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(36, 36, 36, 0.747);
+    color: whitesmoke;
+}
+body{
+    background-color: black !important;
+    background-image: url(/masaaki-komori-Gy4nokYkkok-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top{
+    background-color: rgba(0, 0, 0, 0.801) !important;
+}
+.logo{
+    width: 200px;
+    /* border: 1px solid white;
+    border-radius: 10px; */
+}
+.read{
+    background-color: transparent !important;
+    border-color: transparent;
+}
+.read:hover{
+    border-color: black;
+}
+.bottom{
+    position: relative;
+    top: 180px;
+    background-color: black !important;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+}
+.signature{
+    width: 210px;
+}
+footer{
+    width: 100px;
+    position: relative;
+    top: 135px;
+    float: right;
+}
